@@ -1,13 +1,13 @@
-##Project definition:
+## Project definition:
 
 
-##Model design:
+## Model design:
 
 
-##Research questions:
+## Research questions:
 
 
-##Algorithms:
+## Algorithms:
 
 
-##Dataset:
+## Dataset:
