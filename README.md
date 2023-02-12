@@ -3,7 +3,7 @@ Finding the perfect restaurant to dine at can be a challenging task, especially 
 
 ## Research questions:
 1. Study and develop a restaurant recommendation system that provides personalized recommendations to users in the city of Montreal.
-2. Research and compare different recommendation system models to determine the best approach for the project.
+2. Which model among content-based and collborative-filtering method is better for recommending restaurants?
 3. What are the top similar restaurants based on the reviews given by a user ?
 4. Recommend top restaurants based on a specific keyword like, 'Thai', 'Mexican' or 'pizza', 'sandwich' etc.
 
