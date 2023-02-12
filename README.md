@@ -25,7 +25,7 @@ Link : https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 ## Model 1 : Content based 
 This code implements a Content-based Similarity Recommendation System for restaurants. In a content-based recommendation system, the system suggests items to a user based on their past preferences and behavior, as represented by their interaction with items. In this code, the focus is on suggesting restaurants to a user based on the user's past restaurant reviews.
 
-Algorithm:
+**Algorithm:**
 The cosine similarity algorithm is used to calculate the similarity between the user's past reviews or the keyword and the restaurant reviews. The user's past reviews are transformed into word vectors using a pre-trained pipeline model and the resulting vectors are used to calculate the cosine similarity between the user's past reviews and the restaurant reviews. The restaurants with the highest cosine similarity scores are considered the most similar to the user's past preferences and are recommended to the user. In the case of keyword-based similarity, the keyword is transformed into a word vector and its cosine similarity with the restaurant reviews is calculated to find the top 10 recommended restaurants based on the keyword.
 
 ## Model 2 : Collaborative filtering
