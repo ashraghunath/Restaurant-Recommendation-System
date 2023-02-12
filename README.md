@@ -11,8 +11,6 @@ Finding the perfect restaurant to dine at can be a challenging task, especially 
 
 The data set contains 8021122 reviews on 209393 businesses in 11 metropolitan areas out of which we have 8679 restaurants in Toronto and 4171 in Montreal.
 
-The data set contains 8021122 reviews on 209393 businesses in 11 metropolitan areas out of which we have 8679 restaurants in Toronto and 4171 in Montreal.
-
 In this project, business.json, review.json and user.json files will be utilized from the dataset.
 
 Restaurant Data model consists of five json files such as business, checkin, review, tip and user.
