@@ -7,6 +7,21 @@ Finding the perfect restaurant to dine at can be a challenging task, especially 
 3. What are the top similar restaurants based on the reviews given by a user ?
 4. Recommend top restaurants based on a specific keyword like, 'Thai', 'Mexican' or 'pizza', 'sandwich' etc.
 
+## Dataset
+
+The data set contains 8021122 reviews on 209393 businesses in 11 metropolitan areas out of which we have 8679 restaurants in Toronto and 4171 in Montreal.
+
+Restaurant Data model consists of five json files such as business, checkin, review, tip and user.
+* business.json : The data represents information about a business including its location, attributes, and categories. It includes details such as the business's address, city, state, and postal code, as well as attributes such as acceptance of credit cards, parking availability, and operating hours. Additionally, the data provides information about the business's geographical location and its rating based on customer reviews. here are 14 features in total, including both numerical and categorical information, as well as dictionary data.
+* checkin.json : The data represents a list of check-ins at a business, including the dates and times of each check-in.
+* review.json : This data contains a review of a business, including information such as the reviewer's user ID, the business's ID, the rating given in stars, the number of "useful," "funny," and "cool" votes the review received, the text of the review, and the date the review was written.
+* tip.json : A tip written by a user on a business is a brief piece of advice or suggestion. It contains information such as the user_id of the person who wrote the tip, the business_id the tip is for, the text of the tip, the date it was written, and the number of compliments received. Tips are typically shorter and more concise than reviews.
+* user.json : A user profile in a review system typically includes information such as the user's unique identifier, name, number of reviews they've written, the date they started using the system, and their ratings for "useful", "funny", and "cool". It may also include information such as their status as an "elite" user, the number of friends they have on the platform, the number of users who have marked them as a "fan", and their average star rating.
+
+The files used for this project will be business.json, review.json and user.json.
+
+Link : https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
+
 ## Model 1 : Content based recommendation system 
 This code implements a Content-based Similarity Recommendation System for restaurants. In a content-based recommendation system, the system suggests items to a user based on their past preferences and behavior, as represented by their interaction with items. In this code, the focus is on suggesting restaurants to a user based on the user's past restaurant reviews.
 
