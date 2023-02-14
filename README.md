@@ -26,3 +26,14 @@ This code implements a Content-based Similarity Recommendation System for restau
 The cosine similarity algorithm is used to calculate the similarity between the user's past reviews or the keyword and the restaurant reviews. The user's past reviews are transformed into word vectors using a pre-trained pipeline model and the resulting vectors are used to calculate the cosine similarity between the user's past reviews and the restaurant reviews. The restaurants with the highest cosine similarity scores are considered the most similar to the user's past preferences and are recommended to the user. In the case of keyword-based similarity, the keyword is transformed into a word vector and its cosine similarity with the restaurant reviews is calculated to find the top 10 recommended restaurants based on the keyword.
 
 ## Model 2 : Collaborative filtering
+
+In the code, the ALS algorithm is used to recommend restaurants to users based on their ratings compared to similar user’s.
+
+Algorithm:
+
+ALS algorithm to make predictions about the ratings that a user might give to a restaurant. 
+The goal of the matrix factorization is to factorize the user-restaurant rating matrix (sparse matrix) 
+into product of two low dimensional user-feature and restaurant-feature matrices which will allow model
+to recommend better personalized restaurants to users. These matrices are then used to make predictions 
+about missing ratings in the original matrix. Matrix factorization is one of the very effective 
+dimensionality reduction technique in machine learning. 
