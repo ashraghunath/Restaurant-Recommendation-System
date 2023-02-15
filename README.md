@@ -16,7 +16,7 @@ In this project, business.json, review.json and user.json files will be utilized
 * review.json : This data contains a review of a business, including information such as the reviewer's user ID, the business's ID, the rating given in stars, the number of "useful," "funny," and "cool" votes the review received, the text of the review, and the date the review was written.
 * user.json : The user data includes information such as the user ID, name, number of reviews they've written and the number of times their ratings were "useful", "funny", and "cool". 
 
-Link : https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
+Link : [yelp-open-dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset)
 
 ## Model 1 : Content based filtering
 This model focuses on suggesting restaurants to a user based on the user's past restaurant reviews along with the keywords provided.
