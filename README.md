@@ -29,7 +29,7 @@ The cosine similarity algorithm is used to calculate the similarity between the 
 
 ## Model 2 : Collaborative filtering
 
-We use collaborative filtering model to recommend restaurants to users based on their ratings compared to that of similar user’s.
+In this model, we use collaborative filtering model to recommend restaurants to users based on their ratings compared to that of similar user’s.
 
 **Algorithm:**
 We shall use ALS algorithm to make predictions about the ratings that a user might give to a restaurant. The goal of the matrix factorization is to factorize the user-restaurant rating matrix into user-feature and restaurant-feature matrices. These matrices are then used to make predictions about missing ratings in the original matrix.
