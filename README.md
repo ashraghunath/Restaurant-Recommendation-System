@@ -33,3 +33,6 @@ This model recommends restaurants to users based on the ratings given by other u
 
 **Algorithm:**
 We shall use ALS algorithm to make predictions about the ratings that a user might give to a restaurant. The goal of the matrix factorization is to factorize the user-restaurant rating matrix into user-feature and restaurant-feature matrices. These matrices are then used to make predictions about missing ratings in the original matrix.
+
+## Evaluation metrics
+- Root mean squared error
