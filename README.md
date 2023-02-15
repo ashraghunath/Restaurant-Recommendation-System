@@ -2,7 +2,7 @@
 The goal of our project is to develop a restaurant recommendation system for the city of Montreal which provides personalized recommendations based on customer's reviews and ratings for the restaurant.
 
 ## Research questions:
-1. How effective is collaborative filtering in recommending restaurants compared to content-based filtering in terms of accuracy and relevance??
+1. How effective is collaborative filtering in recommending restaurants compared to content-based filtering in terms of accuracy and relevance?
 2. What are the top similar restaurants based on the previous reviews given by a user ?
 3. Recommend top restaurants based on a particular keyword like, 'Italian' or 'Burgers' etc.
 
