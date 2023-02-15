@@ -21,7 +21,7 @@ In this project, business.json, review.json and user.json files will be utilized
 
 Link : https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 
-## Model 1 : Content based 
+## Model 1 : Content based filtering
 This model focuses on suggesting restaurants to a user based on the user's past restaurant reviews along with the keywords provided.
 
 **Algorithm:**
