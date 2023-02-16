@@ -19,7 +19,7 @@ In this project, business.json, review.json and user.json files will be utilized
 Link : [yelp-open-dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset)
 
 ## Model 1 : Content based filtering
-This model focuses on suggesting restaurants to a user based on the reviews of the user rated restraurants along with the keywords provided.
+This model focuses on suggesting restaurants to a user based on the reviews of the user's rated restraurants.
 
 **Algorithm:**
 The cosine similarity algorithm is used to calculate the similarity between the user rated restaurant reviews or the keyword with the restaurant reviews. The restaurants with the highest cosine similarity scores are considered the most similar to the user rated restaurants and are recommended to the user. In the case of keyword-based similarity, the keyword and its cosine similarity with the restaurant reviews is calculated to find the top recommendations.
